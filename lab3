@@ -1,0 +1,9 @@
+#!/bin/bash
+SUB='192.168.1'
+for IP in {0..255}; do
+  if ping -c 1 ${SUB}.${IP} > /dev/null 2>&1; then
+    echo "Ping to ${SUB}.${IP} was successful."
+  else
+    echo "Ping to ${SUB}.${IP} failed."
+  fi
+done
