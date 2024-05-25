@@ -5,7 +5,7 @@ disk usage threshold exceeds to amount of usages (e.g 90% , 80%)
 
 ## Lab2 Output
 
-![](https://github.com/AliKhamed/Terraform-nti-project/blob/main/screenshots/create-workspace.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/day1/screenshots/lab2.png)
 
 
 
@@ -17,5 +17,5 @@ otherwise print "Server 192.168.1.x is unreachable"
 
 ## Lab3 Output
 
-![](https://github.com/AliKhamed/Terraform-nti-project/blob/main/screenshots/create-workspace.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/day1/screenshots/lab3.png)
 
