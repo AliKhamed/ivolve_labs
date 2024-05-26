@@ -18,5 +18,5 @@ done
 ```
 ## Lab2 Output
 
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/day1/screenshots/lab3.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/linux/screenshots/lab3.png)
 
