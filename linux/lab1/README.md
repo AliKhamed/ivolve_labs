@@ -19,7 +19,7 @@ fi
 
 ## Lab1 Output
 
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/day1/screenshots/lab2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/linux/screenshots/lab2.png)
 
 
 
