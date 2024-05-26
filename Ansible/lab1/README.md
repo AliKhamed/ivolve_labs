@@ -11,7 +11,8 @@ Ansible Installation Objective: Install and configure Ansible Automation Platfor
 
 ## Lab1 Output
 
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/linux/screenshots/lab2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/ans1.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/ans2.png)
 
 
 
