@@ -37,6 +37,7 @@ Ansible Playbooks for Web Server Configuration Objective: Write an Ansible playb
 ```
 
 ## Lab2 Outputs
+### Run: ansible-playbook playbook.yaml
 
 ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab2.png)
 ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab2.2.png)
