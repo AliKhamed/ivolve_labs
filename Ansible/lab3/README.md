@@ -57,7 +57,9 @@ Ansible Vault Objective: Use Ansible Vault to encrypt sensitive information, suc
 
 ## Lab2 Outputs
 
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/linux/screenshots/lab2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab3.1.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab3.2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab3.3.png)
 
 
 
