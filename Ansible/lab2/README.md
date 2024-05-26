@@ -38,7 +38,8 @@ Ansible Playbooks for Web Server Configuration Objective: Write an Ansible playb
 
 ## Lab2 Outputs
 
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/linux/screenshots/lab2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab2.2.png)
 
 
 
