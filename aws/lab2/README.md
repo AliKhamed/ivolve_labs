@@ -13,26 +13,26 @@ Launching an EC2 Instance Objective: create private subnet and launch EC2, confi
 
 ### Step1: Create VPC With two subnets public and private
 
-  ![](aws/lab2/screenshots/vpc.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab2/screenshots/vpc.png)
  
 
 ### Step2: Create Bastion EC2 in public subnet
 
-  ![](aws/lab2/screenshots/bas-ec2.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab2/screenshots/bas-ec2.png)
 
   And assign it in new vpc that created in step 1
   And create new security group and allow ssh inbound rule 
 
-  ![](aws/lab2/screenshots/bs-sg.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab2/screenshots/bs-sg.png)
 
 ### Step3: Create Private EC2 in private subnet
 
-  ![](aws/lab2/screenshots/pr1.png)
-  ![](aws/lab2/screenshots/pri-ec2.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab2/screenshots/pr1.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab2/screenshots/pri-ec2.png)
 
   And create new security group and allow inbound rule and Source type custom from public security group of bastion destnation
 
-  ![](aws/lab2/screenshots/pr2.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab2/screenshots/pr2.png)
 
 
 ### Step4: Connect to bastion host by ssh and inside bastion connect to private ec2
@@ -48,7 +48,7 @@ And connect to bastion host by
 
   ```
 
-  ![](aws/lab2/screenshots/ssh1.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab2/screenshots/ssh1.png)
 
   And copy privatekey.pem from local host to bastion host by
   ```
@@ -57,7 +57,7 @@ And connect to bastion host by
   ```
   And connect to private host 
 
-  ![](aws/lab2/screenshots/ssh2.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab2/screenshots/ssh2.png)
 
 
 
