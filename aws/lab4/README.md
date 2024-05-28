@@ -66,5 +66,5 @@ by using
 
 ## Console GUI Check
 
-[](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/console1.png)
-[](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/console2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/console1.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/console2.png)
