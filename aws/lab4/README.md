@@ -26,7 +26,7 @@
   ```
     aws s3api create-bucket --bucket your-bucket-name --region us-east-1 
   ```
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/aws/lab4/screenshots/s31.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/s31.png)
 
 ### Step3: Enable versioning
 

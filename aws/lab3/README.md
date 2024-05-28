@@ -1,70 +1,65 @@
-## Lab4 Description 
+## Lab3 Description 
 
-  SDK and CLI Interactions Objective: Use the AWS CLI to Create an S3 bucket, configure permissions, and upload/download files to/from the bucket. Enable versioning and logging for the bucket.
+ Create AWS Load Balancer Objective: create VPC with 2 subnets, launch 2 EC2s with nginx and apache installed, and create and configure a Load Balancer to access the Web server.
 
 ### Steps 
-1. **Configure aws access key in your terminal**
-2. **Create s3 bucket**
-3. **Enable versioning**
-4. **Create another bucket for logging and set their policy**
-5. **Upload and download file to your bucket**
+1. **Create VPC with 2 subnets**
+2. **Launch 2 EC2s with nginx and apache installed**
+3. **Create and configure a Load Balancer to access the Web server**
+
 
 
 ## Solution Steps
 
-### Step1: Configure aws access key in your terminal by
+### Step1: Create VPC with 2 subnets
 
-  ```
-    aws configure
+  Create vpc with two public subnets in different AZs
 
-  ```
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/configure.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/vpc.png)
  
 
-### Step2: Create s3 bucket
+### Step2: Launch 2 EC2s with nginx and apache installed
 
-  ```
-    aws s3api create-bucket --bucket your-bucket-name --region us-east-1 
-  ```
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/aws/lab4/screenshots/s31.png)
+ Create nginx ec2 by the following configuration
 
-### Step3: Enable versioning
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/nginx1.png)
+  Add HTTP inbound rule to open port 80 for nginx web page
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/nginx2.png)
+   And add nginx installation commands in user data because run nginx 
+    ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/nginx3.png)
 
-  ```
-    aws s3api put-bucket-versioning --bucket your-bucket-name --versioning-configuration Status=Enabled
+  And the same configuration to apache but edit user data as following: 
 
-  ```
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/version.png)
+    ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/apache1.png)
+
+  Two EC2 running
+
+    ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/ec2s.png)
+
+### Step3: Create and configure a Load Balancer to access the Web server
+
+Create Application Load Balancer
   
-### Step4: Create another bucket for logging and set their policy
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/alb1.1.png)
 
-  First create another bucket to logging by 
-  ```
-    aws s3api create-bucket --bucket alikhames010644-lab4-log-bucket --region us-east-1
+With the following configuration:
 
-  ```
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/s3.2.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/alb2.png)
 
-  And create policy file by 
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/alb3.png)
 
- 
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/logs2.png)
-  And file.json content
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/logpolicy.png)
+  And you should create target group and add the 2 EC2 to listner:
 
-  And create logging.json file to configure bitween to buckets
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/alb4.png)
+   
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/tg1.png)
 
-   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/logs3.png)
-   And file.json content
-   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/logs4.png)
+   And copy ALB dns and check the traffic in new tabe
 
-### Step5: Upload and download file to your bucket
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/dns.png)
 
-by using 
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/download.png)
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/upload.png)
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/dns2.png)
 
-## Console GUI Check
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/dns3.png)
 
-[](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/console1.png)
-[](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab4/screenshots/console2.png)
+  
