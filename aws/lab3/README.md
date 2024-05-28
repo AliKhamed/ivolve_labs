@@ -28,13 +28,13 @@
    And add nginx installation commands in user data because run nginx 
     ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/nginx3.png)
 
-  And the same configuration to apache but edit user data as following: 
+  And the same configuration to apache but edit user data as following
 
-    ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/apache1.png)
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/apache1.png)
 
   Two EC2 running
 
-    ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/ec2s.png)
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab3/screenshots/ec2s.png)
 
 ### Step3: Create and configure a Load Balancer to access the Web server
 
