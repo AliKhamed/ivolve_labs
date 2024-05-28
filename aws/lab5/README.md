@@ -26,9 +26,13 @@
 
  
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/func1.png)
-  Assign dynamoDB role that create in step 1
+  
+  #### Assign dynamoDB role that create in step 1
+  
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/func2.png)
-  Upload your code from your device
+  
+  #### Upload your code from your device
+  
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/func3.png)
 
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/func4.png)
