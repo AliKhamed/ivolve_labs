@@ -41,34 +41,34 @@
   
 ### Step4: Create API gateway
 
-Create rest api 
+#### Create rest api 
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/rest.png)
-And create two method GET and POST
+#### And create two method GET and POST
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/api1.png)
 
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/api2.png)
 
-  And deploy the post method 
+ #### And deploy the post method 
 
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/apideploy.png)
 
   
 ### Step4: Check App cycle
 
-  Copy deployed api url and check it in new tabe
+ #### Copy deployed api url and check it in new tabe
   
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/test1.png)
   
-  After writing the infomation press submit
+  #### After writing the infomation press submit
   
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/test2.png)
   
-  Congrats your application running well
+ #### Congrats your application running well
 
-  Check your data in the dynamodb table 
+ #### Check your data in the dynamodb table 
   
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/aws/lab5/screenshots/itemdb.png)
 
-  Well Done!
+  #### Well Done!
   
 
