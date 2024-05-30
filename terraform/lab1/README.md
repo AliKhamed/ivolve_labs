@@ -1,4 +1,4 @@
-## Lab4 Description 
+## Lab1 Description 
 
  Multi-Tier Application Deployment with Terraform Objective: Use Terraform to define and deploy a multi-tier architecture, including VPC, subnets, EC2 instances, and an RDS database. Explore Terraform state management.
 
