@@ -54,6 +54,5 @@
 
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab1/screenshots/destroy.png)
   
-### Well Done!
   
 

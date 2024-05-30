@@ -51,6 +51,4 @@
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/oc.png)
 
   
-### Well Done!
-  
 

@@ -49,6 +49,6 @@
 ### Step5: Destroy terraform
 #### You must destroy because the cost ():
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab1/screenshots/destroy.png)
-### Well Done!
+
   
 

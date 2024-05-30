@@ -120,7 +120,6 @@ if __name__ == '__main__':
 #### OC cli
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/oc.png)
 
-  
-### Well Done!
+
   
 
