@@ -44,7 +44,7 @@
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/docker.png)
 
 #### jenkins status
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/jenkins copy.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/jenkins2png)
 ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/jenkins.png)
 
 #### OC cli
