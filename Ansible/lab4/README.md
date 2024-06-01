@@ -17,7 +17,7 @@
 
   #### create the following files
 
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/tree.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/tree.png)
  
 ### Step2: Configure AWS AccessKey
 
@@ -99,24 +99,24 @@ if __name__ == '__main__':
   python3 ec2.py
 
 ```
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/runScript.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/runScript.png)
 
 #### Second Run
 
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/apply1.png)
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/frun.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/apply1.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/frun.png)
 
 
 ### Check the Configuration that you apply in the EC2
 #### Enter on your EC2 instance by ssh command and check 
 #### docker ps
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/docker.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/docker.png)
 
 #### jenkins status
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/jenkins.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/jenkins.png)
 
 #### OC cli
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/oc.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/oc.png)
 
 
 ### Step4: Dynamic inventory using AWS ec2 Plugin

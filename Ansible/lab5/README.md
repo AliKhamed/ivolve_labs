@@ -16,7 +16,7 @@
 
   #### create the following files
 
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/tree.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab5/screenshots/tree.png)
  
 ### Step2: Configure AWS AccessKey
 
@@ -33,22 +33,22 @@
   ansible-playbook -i inventory_file playbook.yaml file
 ```
 
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/apply1.png)
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/apply2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab5/screenshots/apply1.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab5/screenshots/apply2.png)
 
 
 
 ### Step4: Check the Configuration that you apply in the EC2
 #### Enter on your EC2 instance by ssh command and check 
 #### docker ps
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/docker.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab5/screenshots/docker.png)
 
 #### jenkins status
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/jenkins2.png)
-![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/jenkins.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab5/screenshots/jenkins2.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab5/screenshots/jenkins.png)
 
 #### OC cli
-  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab4/screenshots/oc.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab5/screenshots/oc.png)
 
   
 
