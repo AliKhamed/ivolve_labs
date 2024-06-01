@@ -1,4 +1,4 @@
-## Lab2 Description 
+## Lab3 Description 
 
 Ansible Vault Objective: Use Ansible Vault to encrypt sensitive information, such as database passwords, and incorporate the encrypted data into an Ansible playbook.
 
@@ -55,7 +55,7 @@ Ansible Vault Objective: Use Ansible Vault to encrypt sensitive information, suc
   
 ```
 
-## Lab2 Outputs
+## Lab3 Outputs
 
 ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab3.1.png)
 ![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/screenshots/lab3.2.png)

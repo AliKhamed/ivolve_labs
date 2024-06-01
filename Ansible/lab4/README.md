@@ -1,13 +1,13 @@
-## Lab3 Description 
+## Lab4 Description 
 
  Ansible Dynamic Inventories Objective: Set up Ansible dynamic inventories to automatically discover and manage infrastructure. Use dynamic inventories to scale playbook execution across different environments.
 
 ### Steps 
 1. **Create the folder structure As following**
 2. **Configure AWS AccessKey**
-3. **Make dynamic inventory by python script**
-4. **Run Playbook**
-5. **Check the Configuration that you apply in the EC2**
+3. **Dynamic inventory using python script**
+4. **Dynamic inventory using AWS ec2 Plugin**
+
 
 
 
@@ -29,7 +29,7 @@
 #### Enter AccessKey ID and SecretAccessKey
 
 
-### Step3: Make dynamic inventory by python script
+### Step3: Make dynamic inventory using python script
 #### First install boto3 
 ```
   pip install boto3
@@ -93,8 +93,7 @@ if __name__ == '__main__':
     print("Done.")
 
   ```
-
-### Step4: Run Playbook
+### Run Playbook
 #### First run 
 ```
   python3 ec2.py
@@ -108,8 +107,7 @@ if __name__ == '__main__':
 ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/frun.png)
 
 
-
-### Step5: Check the Configuration that you apply in the EC2
+### Check the Configuration that you apply in the EC2
 #### Enter on your EC2 instance by ssh command and check 
 #### docker ps
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/docker.png)
@@ -119,6 +117,41 @@ if __name__ == '__main__':
 
 #### OC cli
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/terraform/lab3/screenshots/oc.png)
+
+
+### Step4: Dynamic inventory using AWS ec2 Plugin
+#### First add path to ansible.cfg file
+```
+
+[defaults]
+inventory = ./inventory/aws_ec2.yml
+
+```
+#### create aws_ec2.yaml file as follow
+
+```
+plugin: amazon.aws.aws_ec2
+regions:
+  - us-east-1  # Specify your AWS region(s) here
+filters:
+  tag:Name: test  # Filter instances by the tag Name=test
+  instance-state-name: running  # Only include running instances
+keyed_groups:
+  - key: tags.Name  # Group instances by their 'Name' tag
+    prefix: tag
+compose:
+  ansible_host: public_ip_address  # Use the public IP address to connect
+
+```
+### Run Playbook
+
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/papply.png)
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/papply2.png)
+#### check ec2
+![](https://github.com/AliKhamed/ivolve_labs/blob/main/Ansible/lab4/screenshots/pcheck.png)
+
+
+
 
 
   
