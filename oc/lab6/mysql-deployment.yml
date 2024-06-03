@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-deployment
+  namespace: nti
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:latest
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: db-secrets
+              key: MYSQL_ROOT_PASSWORD
+        - name: MYSQL_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: db-secrets
+              key: MYSQL_PASSWORD
+        - name: MYSQL_DATABASE
+          valueFrom:
+            configMapKeyRef:
+              name: mysql-config
+              key: MYSQL_DATABASE
+        - name: MYSQL_USER
+          valueFrom:
+            configMapKeyRef:
+              name: mysql-config
+              key: MYSQL_USER
+        ports:
+        - containerPort: 3306
+        resources:
+          requests:
+            cpu: "0.5"
+            memory: "1Gi"
+          limits:
+            cpu: "1"
+            memory: "2Gi"
