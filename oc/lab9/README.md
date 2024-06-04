@@ -93,8 +93,8 @@ spec:
 ```
 #### what is the status of the pod after apply
 
-  [](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.4.png)
-  [](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.5.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.4.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.5.png)
 
 #### change the toleration to 'color=red' and notice what will happen
 
@@ -115,8 +115,8 @@ spec:
 
 ```
 #### Apply
-  [](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.6.png)
-  [](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.7.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.6.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.7.png)
 
 
 ### Step5: Make a Comparison between Taint & Toleration & Node Affinity.
