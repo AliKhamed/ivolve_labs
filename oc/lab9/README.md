@@ -54,7 +54,7 @@ spec:
   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.1.png)
 
   #### Apply And check
-   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.1.png)
+   ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab9/screenshots/lab9.2.png)
 
 
 
