@@ -1,1 +1,0 @@
-Use jenkins slave to automate deployment of openshift , first build and push docker image then deploy on openshift cluster using token credentials optained from service account
