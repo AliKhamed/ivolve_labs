@@ -47,6 +47,6 @@ Each project is organized into its own directory with detailed instructions and 
 To get started, simply clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/handson-labs.git
-cd handson-labs
+git clone https://github.com/AliKhamed/ivolve_labs.git
+cd ivolve_labs
 ```
