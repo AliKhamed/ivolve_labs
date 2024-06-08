@@ -36,9 +36,9 @@ A Kubernetes Operator is a method of packaging, deploying, and managing a Kubern
   helm install argocd-operator argo/argo-cd -n argocd
 
   ```
-    ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab11/screenshots/argo1.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab11/screenshots/argo1.png)
 
-    ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab11/screenshots/argo2.png)
+  ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab11/screenshots/argo2.png)
 
 
 
