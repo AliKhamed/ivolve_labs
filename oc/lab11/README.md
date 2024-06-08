@@ -20,21 +20,22 @@ A Kubernetes Operator is a method of packaging, deploying, and managing a Kubern
 
 ### First 
 
-  1. start minikube 
-  2. Create argocd namespace 
-  2. Add helm repo to argocd operator 
-    ```
-    helm repo add argo https://argoproj.github.io/argo-helm
-    helm repo update
+  #### start minikube 
+  #### Create argocd namespace 
+  #### Add helm repo to argocd operator 
 
-    ```
+  ```
+  helm repo add argo https://argoproj.github.io/argo-helm
+  helm repo update
+
+  ```
 
 ### Create ArgoCD operator
 
-    ```
-    helm install argocd-operator argo/argo-cd -n argocd
+  ```
+  helm install argocd-operator argo/argo-cd -n argocd
 
-    ```
+  ```
     ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab11/screenshots/argo1.png)
 
     ![](https://github.com/AliKhamed/ivolve_labs/blob/main/oc/lab11/screenshots/argo2.png)
@@ -81,22 +82,22 @@ A Kubernetes Operator is a method of packaging, deploying, and managing a Kubern
 
 ### First 
 
-  1. start minikube 
-  2. Create elastic-system namespace 
-  2. Add helm repo to elk operator 
+  #### start minikube 
+  #### Create elastic-system namespace 
+  #### Add helm repo to elk operator 
 
-    ```
+  ```
    helm repo add elastic https://helm.elastic.co
    helm repo update
 
-    ```
+  ```
 
 ### Create ELK operator
 
-    ```
-    helm install elastic-operator elastic/eck-operator -n elastic-system
+  ```
+  helm install elastic-operator elastic/eck-operator -n elastic-system
 
-    ```
+  ```
 ### Verify the Installation
 
   ```
